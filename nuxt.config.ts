@@ -26,18 +26,18 @@ export default defineNuxtConfig({
 
     // Client-side (public)
     public: {
-      appName: 'Obsidia Hub',
+      appName: 'Obsidia Service',
     },
   },
 
   // App metadata
   app: {
     head: {
-      title: 'Obsidia Hub — Premium Key System',
+      title: 'Obsidia Service — Premium Key System',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Admin dashboard for managing Obsidia Service premium keys' },
+        { name: 'description', content: 'Premium key management dashboard for Obsidia Service' },
         { name: 'theme-color', content: '#7c3aed' },
       ],
       link: [
